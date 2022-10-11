@@ -1,0 +1,50 @@
+
+@font-face {
+    src: url(./LovelyMelody-EaPon.ttf);
+    font-family: fontt;
+}
+.container1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111;
+    color: white;
+    font-family: fontt;
+    position: relative;
+    min-height: 100vh;
+}
+
+.ballon {
+    position: absolute;
+    max-width: 98%;
+    z-index: 0;
+}
+
+.happy-birthday {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.ayouta{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 50px;
+    z-index: 2;
+}
+
+.cake {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 400px) {
+    .ballon {
+        width: calc(100vw - 20px);
+    }
+    .ayouta {
+        font-size: 35px;
+        z-index: 2;
+    }
+}
